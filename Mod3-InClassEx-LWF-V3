@@ -34,3 +34,35 @@ while True:
         print("Invalid User Input. Please enter only integers.")
         continue
 
+
+
+
+# This section checks to see if this is the first number and if it is zero
+    if len(numbers) == 0 and num == 0:
+        print("The first number cannot be zero. Please enter a non-zero integer.")
+        continue
+
+
+
+# This section provides the break action if zero is entered after the first number, stop input
+    if num == 0:
+        break
+
+
+# IF integer input is not zero, then store the number in the list
+    numbers.append(num)
+
+
+
+# This section produces the output desired
+# When the break character is entered, the loop ends, and the results are printed.
+print("\nIntegers entered:", numbers)
+print("Total ount of numbers entered:", len(numbers))
+
+
+# This section outputs the value of the largest integer entered.
+if len(numbers) > 0:
+    print("Maximum number value entered:", max(numbers))
+
+# End Code - Done.
+
