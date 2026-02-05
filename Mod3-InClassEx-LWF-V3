@@ -1,0 +1,15 @@
+
+# SDEV 140 - Mod 3 - in class excercise
+
+
+# Write a python program with the following requirements:
+
+# Reads an integer from propted user input until the user enters 0.
+
+# When zero is entered as the first integer prompt the user that the first number cannot be zero and resume input number prompting
+
+# When zero is entered at any point other than the first integer, the program should then output;
+
+# 1) Print the list of integers, 2) Print the count of numbers that were entered, 3)  Print the maximum number value entered (the largest number entered) with output descriptions
+
+# The program should also check to make sure the first number entered is not zero and handle input validation like input not being an integer etc.
