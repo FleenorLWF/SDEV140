@@ -13,3 +13,24 @@
 # 1) Print the list of integers, 2) Print the count of numbers that were entered, 3)  Print the maximum number value entered (the largest number entered) with output descriptions
 
 # The program should also check to make sure the first number entered is not zero and handle input validation like input not being an integer etc.
+
+
+# Begin code:
+
+# Create list
+
+numbers = []   # this list will be used to store all valid integers
+
+
+# This section sets up the loop to gather and process the integers
+while True:
+    user_input = input("Enter an integer (Enter 0 to stop and process list): ")
+
+
+# This section is used to validate input
+    try:
+        num = int(user_input)
+    except ValueError:
+        print("Invalid User Input. Please enter only integers.")
+        continue
+
