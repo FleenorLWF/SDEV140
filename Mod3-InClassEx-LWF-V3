@@ -57,7 +57,7 @@ while True:
 # This section produces the output desired
 # When the break character is entered, the loop ends, and the results are printed.
 print("\nIntegers entered:", numbers)
-print("Total ount of numbers entered:", len(numbers))
+print("Total count of numbers entered:", len(numbers))
 
 
 # This section outputs the value of the largest integer entered.
